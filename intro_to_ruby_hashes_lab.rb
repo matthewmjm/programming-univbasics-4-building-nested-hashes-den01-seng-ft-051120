@@ -26,11 +26,12 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   base_hash = Hash.new
-  base_hash[:railroads] = Hash.new 
-  base_hash[:railroads][:pieces]
-  base_hash[:railroads][:pieces] = 4
-  base_hash[:railroads][:rent_in_dollars] = Hash.new
-  base_hash[:railroads][:names] = Hash.new
+    base_hash[:railroads] = Hash.new 
+    base_hash[:railroads][:pieces]
+      base_hash[:railroads][:pieces] = 4
+    base_hash[:railroads][:rent_in_dollars] = Hash.new
+      base_hash[:railroads][:rent_in_dollars] =
+    base_hash[:railroads][:names] = Hash.new
   base_hash
 end
 
