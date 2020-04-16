@@ -70,6 +70,7 @@ def monopoly_with_fourth_tier
         base_hash[:railroads][:names][:pennsylvania_railroad] = Hash.new
                base_hash[:railroads][:names][:pennsylvania_railroad] = Hash.new
         base_hash[:railroads][:names][:b_and_o_railroad] = Hash.new
+                base_hash[:railroads][:names][:b_and_o_railroad] = Hash.new
         base_hash[:railroads][:names][:shortline_railroad] = Hash.new
   base_hash
 end
