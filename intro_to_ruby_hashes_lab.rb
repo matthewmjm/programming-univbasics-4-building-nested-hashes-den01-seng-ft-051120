@@ -66,11 +66,12 @@ def monopoly_with_fourth_tier
         base_hash[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
     base_hash[:railroads][:names] = Hash.new
         base_hash[:railroads][:names][:reading_railroad] = Hash.new
-                base_hash[:railroads][:names][:reading_railroad] = Hash.new
+                base_hash[:railroads][:names][:reading_railroad][]
         base_hash[:railroads][:names][:pennsylvania_railroad] = Hash.new
                base_hash[:railroads][:names][:pennsylvania_railroad] = Hash.new
         base_hash[:railroads][:names][:b_and_o_railroad] = Hash.new
                 base_hash[:railroads][:names][:b_and_o_railroad] = Hash.new
         base_hash[:railroads][:names][:shortline_railroad] = Hash.new
+                base_hash[:railroads][:names][:shortline_railroad] = Hash.new
   base_hash
 end
