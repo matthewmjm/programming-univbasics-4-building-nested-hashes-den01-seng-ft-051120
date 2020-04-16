@@ -42,7 +42,7 @@ def monopoly_with_third_tier
         base_hash[:railroads][:names][:reading_railroad]
         base_hash[:railroads][:names][:pennsylvania_railroad]
         base_hash[:railroads][:names][:b_and_o_railroad]
-        base_hash[:railroads][:names][:reading_railroad]
+        base_hash[:railroads][:names][:shortline_railroad]
   base_hash
 end
 
